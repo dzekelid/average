@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Average
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,10 +19,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetAverageHistoricalCrossRates
-  tags: Average, Historical, Cross, Rates
+  tags: Market Data,Average, Historical, Cross, Rates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragehistoricalcrossrates-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragehistoricalcrossrates-get-openapi.md
 - name: Xignite Currencies Get Average Historical Cross Rate
   x-api-slug: xignite-currencies
   description: This operation returns an average daily historical cross-rates for
@@ -30,10 +30,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetAverageHistoricalCrossRate
-  tags: Average, Historical, Cross, Rate
+  tags: Market Data,Average, Historical, Cross, Rate
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragehistoricalcrossrate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragehistoricalcrossrate-get-openapi.md
 - name: Xignite Currencies
   x-api-slug: xignite-currencies
   description: Financial market data on-demand. Xignite financial Web services help
@@ -51,50 +51,50 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetAverageRate
-  tags: Average, Rate
+  tags: Market Data,Average, Rate
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragerate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragerate-get-openapi.md
 - name: Xignite Rates Get Average Rates
   x-api-slug: xignite-rates
   description: Returns average rate for a period.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetAverageRates
-  tags: Average, Rates
+  tags: Market Data,Average, Rates
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragerates-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragerates-get-openapi.md
 - name: Xignite Rates Get Rate Moving Average
   x-api-slug: xignite-rates
   description: Returns a moving  average rate as of a specific date
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetRateMovingAverage
-  tags: Rate, Moving, Average
+  tags: Market Data,Rate, Moving, Average
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getratemovingaverage-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getratemovingaverage-get-openapi.md
 - name: Xignite Rates Get Daily Average
   x-api-slug: xignite-rates
   description: Returns a daily average rate as of a specific date
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetDailyAverage
-  tags: Daily, Average
+  tags: Market Data,Daily, Average
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getdailyaverage-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getdailyaverage-get-openapi.md
 - name: Xignite Rates Get Monthly Treasury Average
   x-api-slug: xignite-rates
   description: Returns a daily average rate as of a specific date
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetMonthlyTreasuryAverage
-  tags: Monthly, Treasury, Average
+  tags: Market Data,Monthly, Treasury, Average
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getmonthlytreasuryaverage-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getmonthlytreasuryaverage-get-openapi.md
 - name: Xignite Rates
   x-api-slug: xignite-rates
   description: Financial market data on-demand. Xignite financial Web services help
@@ -107,7 +107,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -167,6 +167,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []
