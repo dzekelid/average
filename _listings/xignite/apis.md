@@ -7,108 +7,18 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Average
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Xignite Currencies Get Average Historical Cross Rates
-  x-api-slug: xignite-currencies
-  description: This operation returns an array average daily historical cross-rates
-    for a period.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetAverageHistoricalCrossRates
-  tags: Market Data,Average, Historical, Cross, Rates
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragehistoricalcrossrates-get-openapi.md
-- name: Xignite Currencies Get Average Historical Cross Rate
-  x-api-slug: xignite-currencies
-  description: This operation returns an average daily historical cross-rates for
-    a period.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies//GetAverageHistoricalCrossRate
-  tags: Market Data,Average, Historical, Cross, Rate
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragehistoricalcrossrate-get-openapi.md
-- name: Xignite Currencies
-  x-api-slug: xignite-currencies
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xCurrencies.json//XigniteCurrencies
-  tags: Average
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/openapi.md
-- name: Xignite Rates Get Average Rate
-  x-api-slug: xignite-rates
-  description: Returns an average rate as of a specific date.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetAverageRate
-  tags: Market Data,Average, Rate
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragerate-get-openapi.md
-- name: Xignite Rates Get Average Rates
-  x-api-slug: xignite-rates
-  description: Returns average rate for a period.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetAverageRates
-  tags: Market Data,Average, Rates
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getaveragerates-get-openapi.md
-- name: Xignite Rates Get Rate Moving Average
-  x-api-slug: xignite-rates
-  description: Returns a moving  average rate as of a specific date
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetRateMovingAverage
-  tags: Market Data,Rate, Moving, Average
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getratemovingaverage-get-openapi.md
-- name: Xignite Rates Get Daily Average
-  x-api-slug: xignite-rates
-  description: Returns a daily average rate as of a specific date
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetDailyAverage
-  tags: Market Data,Daily, Average
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getdailyaverage-get-openapi.md
-- name: Xignite Rates Get Monthly Treasury Average
-  x-api-slug: xignite-rates
-  description: Returns a daily average rate as of a specific date
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates//GetMonthlyTreasuryAverage
-  tags: Market Data,Monthly, Treasury, Average
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/getmonthlytreasuryaverage-get-openapi.md
-- name: Xignite Rates
-  x-api-slug: xignite-rates
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xRates.json/XigniteRates
-  tags: Average
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/average/master/_listings/xignite/openapi.md
+apis: []
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies
