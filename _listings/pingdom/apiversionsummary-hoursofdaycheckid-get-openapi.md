@@ -8,14 +8,14 @@ info:
     a specific check over a selected time period. I.e. it shows you what an average
     day looks like during that time period.
   version: 1.0.0
-host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.pingdom.com
+basePath: /
 paths:
   ? |2-
 

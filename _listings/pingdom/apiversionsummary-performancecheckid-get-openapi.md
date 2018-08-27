@@ -9,14 +9,14 @@ info:
     For a given interval in time, return a list of sub intervals with the given resolution. Useful for generating graphs. A sub interval may be a week,
          a day or an hour depending on the choosen resolution.
   version: 1.0.0
-host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.pingdom.com
+basePath: /
 paths:
   ? |2-
 
